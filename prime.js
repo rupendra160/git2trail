@@ -1,14 +1,16 @@
-let a =23;
-let count=0;
-if(a%i==0)
-{
-count++;
+let a=10;
+
+if(a<2){
+  console.log("Not a Prime Number" );
 }
-if (count==2)
-{
-console.log("Prime");
-}
-else
-{
-console.log("Not Prime);
-}
+  for (let i=2; i<a;i++){
+    if(a%i===0){
+      console.log("Not a prime Number")
+      break;
+    }else{
+      console.log("Prime number")
+      break;
+    }
+  }
+
+
